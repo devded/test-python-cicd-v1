@@ -12,6 +12,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Install dependencies
+        run: |
+          python -m venv env
+          source env/bin/activate
       - name: Write file
         run: |
           source env/bin/activate
