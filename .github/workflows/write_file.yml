@@ -23,7 +23,7 @@ jobs:
       - name: Commit file
         uses: EndBug/add-and-commit@v8
         with:
-          author_name: Your Name
-          author_email: your-email@example.com
+          author_name: Dedar
+          author_email: devded@pm.me
           message: "Add example.txt"
           add: "example.txt"
